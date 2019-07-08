@@ -6,16 +6,17 @@ with easy to maintain recepies, high build speed, automatic dependency graph res
 The toolchain uses the QtSDK ( with the integrated MinGW 7.3.0 x64 Compiler on Windows )
 I dont support VC because i hate it, ofcourse you can do with your life what you want, so do I.
 
-![the system](https://github.com/interspecifics/micro-ritmos/blob/master/img/28092016-IMG_4917.jpg?raw=true)
+![the system](contribs.png)
 
 # HARDWARE.
 - AMD64, aka x64_86 
 
-![the system](https://github.com/interspecifics/micro-ritmos/blob/master/img/micro_ritmos_1.jpg?raw=true)
+# Supported Operating Systems
 - Windows 64 Bit ( tested on Windows 10 + msys2 + cmake + QtSDK 5.12.3 + integrated MinGW Compiler 7.3.0 )
 - Linux 64 Bit ( tested on Xubuntu 18.04 LTS + cmake + QtSDK 5.12.3 for Linux64 )
+- MacOSX 64 Bit could be supported, there is no real issue ( except lack of experience ) regarding Apple.
 
-# Build on Linux (x64)
+# Building on Linux (x64) is easy and convenient.
 
 > sudo apt-get install cmake qtbase5-dev libxxf86vm-dev libx11-dev x11proto-xf86vidmode-dev
 > cd into/benni-cmake-v6
@@ -24,7 +25,7 @@ I dont support VC because i hate it, ofcourse you can do with your life what you
 > ./clean.sh
 > ./build_linux.sh
 
-# Build on Windows (x64)
+# Building on Windows (x64) needs some prep and is less convenient, but works well.
 
 - Install Git with integrated Git Bash ( A Linux Terminal Emulator much better than cmd.exe )
 	![https://git-scm.com/downloads](https://git-scm.com/downloads)
