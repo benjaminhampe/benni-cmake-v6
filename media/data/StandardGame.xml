@@ -1,0 +1,66 @@
+<pioneers3d name="Standard Game" type="0">
+	<TextureData count="19">
+		<tex id="card_bg">cards/card_bg.jpg</tex>
+		<tex id="tile/unknown">unknown.jpg</tex>
+		<tex id="tile/wasser">tile/wasser.jpg</tex>
+		<tex id="tile/land_wueste">tile/land_wueste.jpg</tex>
+		<tex id="tile/land_holz">tile/land_holz.jpg</tex>
+		<tex id="tile/land_lehm">tile/land_lehm.jpg</tex>
+		<tex id="tile/land_weizen">tile/land_weizen.jpg</tex>
+		<tex id="tile/land_wolle">tile/land_wolle.jpg</tex>
+		<tex id="tile/land_erz">tile/land_erz.jpg</tex>
+		<tex id="tile/hafen_3zu1">tile/hafen_3zu1.jpg</tex>
+		<tex id="tile/hafen_holz">tile/hafen_holz.jpg</tex>
+		<tex id="tile/hafen_lehm">tile/hafen_lehm.jpg</tex>
+		<tex id="tile/hafen_wolle">tile/hafen_wolle.jpg</tex>
+		<tex id="tile/hafen_erz">tile/hafen_erz.jpg</tex>
+		<tex id="tile/hafen_weizen">tile/hafen_weizen.jpg</tex>
+	</TextureData>
+	
+	<BoardData rows="11" cols="11" tile-count="37" tile-size-x="10" tile-size-y="2" tile-size-z="12">
+		<tile type="Land_Wueste" x="0" z="0" angle="0" />
+		<tile type="Land_Weizen" x="2" z="6" angle="0" />
+		<tile type="Land_Weizen" x="-2" z="6" angle="0" />
+		<tile type="Land_Weizen" x="-2" z="-6" angle="0" />
+		<tile type="Land_Weizen" x="0" z="-6" angle="0" />
+		<tile type="Land_Holz" x="-1" z="3" angle="0" />
+		<tile type="Land_Holz" x="0" z="6" angle="0" />
+		<tile type="Land_Holz" x="-3" z="-3" angle="0" />
+		<tile type="Land_Holz" x="3" z="-3" angle="0" />
+		<tile type="Land_Wolle" x="1" z="3" angle="0" />
+		<tile type="Land_Wolle" x="4" z="0" angle="0" />
+		<tile type="Land_Wolle" x="3" z="3" angle="0" />
+		<tile type="Land_Wolle" x="-4" z="0" angle="0" />
+		<tile type="Land_Erz" x="2" z="0" angle="0" />
+		<tile type="Land_Erz" x="-1" z="-3" angle="0" />
+		<tile type="Land_Erz" x="2" z="-6" angle="0" />
+		<tile type="Land_Lehm" x="-2" z="0" angle="0" />
+		<tile type="Land_Lehm" x="1" z="-3" angle="0" />
+		<tile type="Land_Lehm" x="-3" z="3" angle="0" />
+		<tile type="Hafen_3zu1" x="6" z="0" angle="1" />
+		<tile type="Hafen_3zu1" x="4" z="6" angle="1" />
+		<tile type="Hafen_3zu1" x="-5" z="-3" angle="5" />
+		<tile type="Hafen_3zu1" x="1" z="-9" angle="5" />
+		<tile type="Hafen_Weizen" x="4" z="-6" angle="1" />
+		<tile type="Hafen_Holz" x="-5" z="3" angle="4" />
+		<tile type="Hafen_Wolle" x="1" z="9" angle="2" />
+		<tile type="Hafen_Erz" x="-3" z="9" angle="3" />
+		<tile type="Hafen_Lehm" x="-3" z="-9" angle="5" />
+		<tile type="Wasser" x="-1" z="-9" angle="0" />
+		<tile type="Wasser" x="3" z="-9" angle="0" />
+		<tile type="Wasser" x="5" z="-3" angle="0" />
+		<tile type="Wasser" x="5" z="3" angle="0" />
+		<tile type="Wasser" x="3" z="9" angle="0" />
+		<tile type="Wasser" x="-1" z="9" angle="0" />
+		<tile type="Wasser" x="-4" z="6" angle="0" />
+		<tile type="Wasser" x="-6" z="0" angle="0" />
+		<tile type="Wasser" x="-4" z="-6" angle="0" />
+	</BoardData>
+	
+	<PlayerData max-players="4">	
+		<player id="1" type="human" name="Player"></player>		
+		<player id="2" type="cpu" name="CPU-Player-1"></player>
+		<player id="3" type="cpu" name="CPU-Player-2"></player>
+		<player id="4" type="cpu" name="CPU-Player-3"></player>
+	</PlayerData>
+</pioneers3d>

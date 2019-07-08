@@ -1,0 +1,35 @@
+<RCC>
+	<qresource>
+		<file alias="WASSER">wasser.png</file>
+		<file alias="LAND_HOLZ">land_holz.png</file>
+		<file alias="LAND_LEHM">land_lehm.png</file>
+		<file alias="LAND_WEIZEN">land_weizen.jpg</file>
+		<file alias="LAND_ERZ">land_erz.jpg</file>
+		<file alias="LAND_WOLLE">land_wolle.jpg</file>
+		
+		<file alias="CARD_HOLZ">card_holz.jpg</file>
+		<file alias="CARD_LEHM">card_lehm.png</file>
+		<file alias="CARD_WEIZEN">card_weizen.jpg</file>		
+		<file alias="CARD_ERZ">card_erz.jpg</file>
+		<file alias="CARD_WOLLE">card_wolle.jpg</file>
+
+		<file alias="CHIP">chip00.png</file>
+		<file alias="CHIP_02">chip02.png</file>
+		<file alias="CHIP_03">chip03.png</file>
+		<file alias="CHIP_04">chip04.png</file>
+		<file alias="CHIP_05">chip05.png</file>
+		<file alias="CHIP_06">chip06.png</file>
+		<file alias="CHIP_08">chip08.png</file>
+		<file alias="CHIP_09">chip09.png</file>
+		<file alias="CHIP_10">chip10.png</file>
+		<file alias="CHIP_11">chip11.png</file>
+		<file alias="CHIP_12">chip12.png</file>
+		
+		<file alias="DICE1">dice1.png</file>
+		<file alias="DICE2">dice2.png</file>
+		<file alias="DICE3">dice3.png</file>
+		<file alias="DICE4">dice4.png</file>
+		<file alias="DICE5">dice5.png</file>
+		<file alias="DICE6">dice6.png</file>
+	</qresource>
+</RCC>

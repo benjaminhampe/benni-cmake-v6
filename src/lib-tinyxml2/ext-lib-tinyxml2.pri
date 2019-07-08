@@ -1,0 +1,5 @@
+DEFINES += USE_TINYXML=1
+
+INCLUDEPATH += $$PWD
+HEADERS += $$PWD/tinyxml2.h
+SOURCES += $$PWD/tinyxml2.cpp
