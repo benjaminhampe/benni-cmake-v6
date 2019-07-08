@@ -78,4 +78,4 @@ target_include_directories(pioneers3d PRIVATE ${PIONEERS3D_SOURCE_DIR}/..)
 
 target_sources(pioneers3d PRIVATE ${PIONEERS3D_SOURCES} ${PIONEERS3D_HEADERS})
 
-target_link_libraries(pioneers3d PUBLIC becom irrExt freetype Irrlicht png jpeg bzip2 z glm m)
+target_link_libraries(pioneers3d PUBLIC becom)

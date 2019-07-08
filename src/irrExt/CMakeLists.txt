@@ -62,7 +62,7 @@ target_include_directories(irrExt PRIVATE ${IRREXT_SOURCE_DIR}/..) # go up -> no
 
 target_include_directories(irrExt PRIVATE ${BENNI_SDK_INCLUDE_DIR}) # go up -> now we can do <irrExt/xxx.hpp>
 
-target_link_libraries(irrExt PUBLIC freetype Irrlicht glm png jpeg bzip2 z m)
+target_link_libraries(irrExt PUBLIC freetype Irrlicht glm)
 
 target_include_directories(irrExt PUBLIC ${IRREXT_INCLUDE_DIR}/..) # For the SDK
 

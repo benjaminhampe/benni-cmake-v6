@@ -61,7 +61,7 @@ target_sources(becom PRIVATE
 
 target_include_directories(becom PRIVATE ${BECOM_SOURCE_DIR})
 
-target_link_libraries(becom PUBLIC irrExt freetype Irrlicht glm png jpeg bzip2 z m stdc++fs)
+target_link_libraries(becom PUBLIC irrExt stdc++fs)
 
 target_include_directories(becom PUBLIC ${BECOM_INCLUDE_DIR}) # For the SDK
 

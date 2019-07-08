@@ -672,7 +672,7 @@ else()
 								
 	target_sources(Irrlicht PRIVATE ${IRR_SOURCES} ${IRR_HEADERS})
 	
-	target_link_libraries(Irrlicht PUBLIC png jpeg bzip2 z m)
+	target_link_libraries(Irrlicht PUBLIC png jpeg)
 
 	if (UNIX)
 		target_include_directories(Irrlicht PUBLIC -I/usr/X11R6/include)
